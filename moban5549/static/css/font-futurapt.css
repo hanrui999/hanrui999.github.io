@@ -1,0 +1,27 @@
+﻿@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futurapt-bold.woff2') format('woff2'),
+        url('../fonts/futurapt-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('../fonts/futurapt-demi.woff2') format('woff2'),
+        url('../fonts/futurapt-demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futurapt-medium.woff2') format('woff2'),
+        url('../fonts/futurapt-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

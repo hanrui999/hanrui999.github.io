@@ -1,0 +1,566 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Cart - Stepmeps</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" href="images/logo/favicon.png" type="image/x-icon">
+
+        <!-- All css here -->
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/all.min.css">
+        <link rel="stylesheet" href="static/css/animate.css">
+        <link rel="stylesheet" href="static/css/meanmenu.css">
+        <link rel="stylesheet" href="static/css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="static/css/nice-select.css">
+        <link rel="stylesheet" href="static/css/slick.css">
+        <link rel="stylesheet" href="static/css/jquery-ui.css">
+        <link rel="stylesheet" href="static/css/icomoon.css">
+        <link rel="stylesheet" href="static/css/font-futurapt.css">
+        <link rel="stylesheet" href="static/css/default.css">
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/responsive.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!--  ====== preloader start =============================================  -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                </div>
+            </div>
+        </div>
+        <!--  preloader-end -->
+
+        <!--  ====== header-area-start=======================================  -->
+        <header>
+            <div class="header-area header-area1 header-deafult">
+                <div class="header page-header header2 header-inner  pt-30 pb-22 extra-padding-55">
+                    <div class="container-fluid">
+                        <div class="header-bottom" id="header-sticky">
+                            <div class="row align-items-center justify-content-lg-between position-relative">
+                                <div class="col-xxl-3 col-xl-2 col-lg-3  col-md-5  col-sm-8 col-8 pr-md-0">
+                                    <div class="logo-area">
+                                        <div class="logo2 d-block z-index1 position-relative">
+                                            <a href="index.html" class="d-block" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="stepmeds">
+                                                <img src="static/picture/logo-theme.png" alt="stepmeds">
+                                            </a>
+                                        </div><!-- /logo -->
+                                    </div>
+                                </div><!-- /col -->
+                                <div class="col-xxl-6 col-xl-7 col-lg-7 col-md-1 col-sm-1 col-1 pr-0 pl-0 d-flex align-items-center justify-content-center position-static">
+                                    <div class="main-menu">
+                                        <nav id="mobile-menu">
+                                            <ul class="d-block">
+                                                <li><a class="active dp-menu" href="index.html">Home</a>
+                                                    <ul class="mega-menu  box-shadow-gray2 pt-25 pb-20 pl-30 pr-30">
+                                                        <li><a href="index.html">Home page 01</a></li>
+                                                        <li><a href="index-2.html">Home page 02</a></li>
+                                                        <li><a href="index-3.html">Home page 03</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a class="dp-menu" href="shop.html">Pages</a>
+                                                    <ul class="mega-menu  box-shadow-gray2 pt-25 pb-20 pl-30 pr-30">
+                                                        <li><a href="shop.html">Shop</a></li>
+                                                        <li><a href="product-details.html">Product Details</a></li>
+                                                        <li>
+                                                            <a href="shopping-cart.html">Shopping cart</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="checkout.html">Checkout</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="wishlist.html">Wishlist </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="register.html">Register</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="login.html">Login</a>
+                                                        </li>
+                                                        <li><a href="contact-us.html">Contact</a></li>
+                                                        <li><a href="terms-and-condition.html">Terms & Condition</a></li>
+                                                        <li><a href="page-not-found.html">404 Page</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="dp-menu" href="shop.html">Accessories</a>
+                                                    <ul class="mega-menu mega-dropdown-menu   box-shadow-gray2 pt-25 pb-20 pl-30 pr-30">
+                                                        <li><a href="product-details.html">Thermometers</a></li>
+                                                        <li><a href="product-details.html">Pipettes</a></li>
+                                                        <li><a href="product-details.html">Biopsy tools</a></li>
+                                                        <li><a href="product-details.html">Claws and forceps</a></li>
+                                                        <li><a href="product-details.html">Plaster tools</a></li>
+                                                        <li><a href="product-details.html">Scissors</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="shop.html">Medicines</a>
+                                                </li>
+                                                <li><a class="dp-menu" href="blog.html">Blog</a>
+                                                    <ul class="mega-menu mega-dropdown-menu   box-shadow-gray2 pt-25 pb-20 pl-30 pr-30">
+                                                        <li><a href="blog.html">Blog page</a></li>
+                                                        <li><a href="blog-details.html">Blog details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a class="mr-0" href="contact-us.html">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div><!-- /main-menu -->
+                                </div><!-- /col -->
+                                <div class="col-xxl-3 col-xl-3  col-lg-2  col-md-6  col-sm-3 col-3  pl-0 d-flex  align-items-center justify-content-end">
+                                    <div class="header-right d-flex align-items-center">
+                                        <ul class="header-account d-none d-md-block">
+                                            <li class="d-none d-md-inline-block">
+                                                <a href="login.html" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="My Account" class="dark-black-color"><span><i class="fal fa-user-circle"></i></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                            <ul class="header-compare header-wishlist d-none d-md-block position-relative pl-25">
+                                            <li class="d-none d-md-inline-block">
+                                                <a href="product-details.html" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Compare" class="dark-black-color"><span><i class="fal fa-random"></i></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="header-wishlist d-none d-md-block pl-25 position-relative">
+                                            <li class="position-relative">
+                                                <a href="wishlist.html" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="View wishlist" class="dark-black-color"><span><i class="fal fa-heart"></i></span>
+                                                    <span class="s-count position-absolute h2-theme-bg text-white text-center">0</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="h-shop position-relative pl-25 d-md-block">
+                                            <li class="position-relative">
+                                                <ul class="header-cart-wrapper d-flex align-items-center">
+                                                    <li class="header-shopping-cart cart-item position-relative">
+                                                        <span class="" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Add to cart"><i class="fal fa-shopping-bag"></i></span>
+                                                        <span class="s-count position-absolute h2-theme-bg text-white text-center">0</span>
+                                                    </li>
+                                                </ul><!-- /header-cart-wrapper -->
+                                                
+                                                <div class="header-shopping-cart-details border-t-gray1 mt-1 position-absolute bg-white border-gray pl-30 pr-30 pt-35 pb-60">
+                                                <div class="h-shop-cart-contetn pt-20 over-x-hidden over-y-scroll">
+                                                    <h5 class="mb-30 font500 position-relative hvr2 ">Your Cart</h5>
+                                                    <p>No products in the cart.</p>
+                                                </div>
+                                                <div class="d-sm-flex justify-content-between">
+                                                    <a data-animation="fadeInUp" data-delay="1.7s" href="#" class="web-btn h2-web-btn mt-25 d-inline-block text-uppercase white h2-theme-bg position-relative over-hidden pl-30 pr-30 ptb-12 line-height-1 font12">view cart</a>
+                                                    <a data-animation="fadeInUp" data-delay="1.7s" href="#" class="web-btn h2-web-btn mt-25 d-inline-block text-uppercase white h2-theme-bg position-relative over-hidden pl-30 pr-30 ptb-12 line-height-1 font12">checkout</a>
+                                                </div>
+                                                </div><!-- /header-shopping-cart -->
+                                            </li>
+                                        </ul><!-- /h-shop -->
+                                        <div class="d-block d-lg-none">
+                                            <a class="mobile-menubar pt-0 ml-20" href="javascript:void(0);"><span class="icon-menu"></span></a>
+                                        </div><!-- /mobile-menubar -->
+                                    </div><!-- /header-right -->
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+                        </div><!-- /header-bottom -->
+                    </div><!-- /container-f -->
+                </div><!-- /header -->
+            </div><!-- /header-area -->
+        </header>
+        <!--  header-area-end  -->
+    
+        <!--  ====== header extra info start================================== -->
+        <!-- side-mobile-menu start -->
+        <div class="side-mobile-menu bg-white pt-20 pb-30 pl-40 pr-40 pb-100 hm3">
+        <div class="close-icon d-flex justify-content-end mt-0">
+            <a class="close-menu d-block" href="javascript:void(0);"><span class="icon-clear"></span></a>
+        </div>
+
+        <div class="header-search-content position-relative d-block d-xl-none mt-20">
+            <form action="#" class="position-relative">
+                <input class="form-control rounded-0 h5-theme-color px-0" type="text" placeholder="Enter Keyword...">
+                <a class="position-absolute primary-color d-block" href="#"><span class="icon-search"></span></a>
+            </form>
+        </div>
+        <div class="mobile-menu mt-10"></div>
+        <div class="menu-login pt-10 d-block d-md-none">
+            <ul class="header-login d-flex justify-content-between mobile-border-b ">
+                <li><a href="login.html">My Account</a></li>
+                <li><a href="login.html"><i class="far fa-user-circle"></i></a></li>
+            </ul>
+            <ul class="header-heart d-flex justify-content-between mobile-border-b">
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="wishlist.html"><span class="icon-heart"></span></a></li>
+            </ul>
+        </div><!-- /header-right -->
+
+
+        <h6 class="light-black-color2 font600 mt-30 pb-1 border-primary-b d-inline-block">Contact us</h6>
+        <ul class="contact-add mt-20">
+            <li class="mb-15 primary-color">
+                <span class="pr-1"><i class="fas fa-map-marker-alt"></i></span> 
+                PO Box 16122 Collins Street Victoria 8007 Australia
+            </li>
+            <li class="mb-20 primary-color">
+                <span class="pr-1"><i class="far fa-envelope"></i></span> 
+                contact@example.com
+            </li>
+            <li class="mb-15">
+                <a class=" primary-color" href="tell:+01500123994"><span class="pr-1"><i class="fas fa-phone"></i></span> +01 500 123 994</a>
+            </li>
+        </ul>
+        <ul class="social-link pt-2 mb-150">
+            <li class="d-inline-block">
+                <a class="active  primary-color-center pr-0 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="d-inline-block">
+                <a class=" primary-color text-center pr-0 d-inline-block transition-3" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="d-inline-block">
+                <a class=" primary-color text-center pr-0 d-inline-block transition-3" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="d-inline-block">
+                <a class=" primary-color text-center pr-0 d-inline-block transition-3" href="#"><i class="fab fa-behance"></i></a>
+            </li>
+            <li class="d-inline-block">
+                <a class=" primary-color text-center pr-0 d-inline-block transition-3" href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+        </ul><!-- social-link -->
+        </div><!-- /side-mobile-menu -->
+        <div class="body-overlay"></div>
+        <!-- header extra info end  -->
+
+        <!-- header search details start -->
+        <div class="header-search-details text-center white-bg pt-55 pl-60 pr-60 hm5">
+            <div class="close-icon float-right">
+                <a href="javascript:void(0);"><span class="icon-clear"></span></a>
+            </div>
+            <div class="header-search-content mt-100 ml-130 mr-130">
+                <h3 class="">Search in:</h3>
+                <ul class="d-flex justify-content-center mt-25">
+                    <li><a class="active" href="shop.html">All categories</a></li>
+                    <li><a href="shop.html">Clothing</a></li>
+                    <li><a href="shop.html">Electronics</a></li>
+                    <li><a href="shop.html">Home Accessories</a></li>
+                    <li><a href="shop.html">Best selling product</a></li>
+                </ul>  
+                <form action="#" class="position-relative mt-50">
+                    <input class="form-control rounded-0 h5-theme-color" type="text" placeholder="Enter Keyword...">
+                    <a class="position-absolute primary-color d-block" href="#"><span class="icon-search"></span></a>
+                </form>
+            </div>
+        </div><!-- /extra-info -->
+        <!-- header extra info end  -->
+
+        <main>
+
+            <!-- ======slider-area-start=========================================== -->
+            <div class="slider-area over-hidden">
+                <div class="single-slider page-height3 d-flex align-items-center" data-background="static/images/purchased-item-bg.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12 d-flex align-items-center justify-content-center">
+                                <div class="page-title mt-10 text-center">
+                                    <h2 class="text-capitalize font600 mb-10">Shopping Cart</h2>
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb justify-content-center bg-transparent">
+                                        <li class="breadcrumb-item"><a class="primary-color" href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active text-capitalize" aria-current="page">Shopping Cart</li>
+                                        </ol>
+                                    </nav>
+                                </div><!-- /page title -->
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div><!-- /single-slider -->
+            </div>
+            <!-- slider-area-end  -->
+
+        <!-- ====== cart-area-start=============================================== --> 
+        <div class="cart-area mt-100">
+            <div class="container border-b-light-gray pb-100">
+                <div class="cart-table text-center table-responsive-sm">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th scope="col">Price images</th>
+                            <th scope="col">Product name </th>
+                            <th scope="col">Unit price</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Remove</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <a href="#" class="cart-img d-block">
+                                    <img src="static/picture/product12.jpg" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#" class="p-name primary-color">
+                                    Nursing Care Protection
+                                </a>
+                            </td>
+                            <td>
+                                <div class="cart-price">$440.00</div></td>
+                            <td>
+                                <div class="all-info product-view-info text-center mt-35">
+                                    <div class="quick-add-to-cart d-sm-flex align-items-centerm-auto  mb-15 mr-10">
+                                        <div class="quantity-field position-relative d-inline-block m-auto">
+                                            <input type="text" name="select1" value="0" class="quantity-input-arrow quantity-input text-center border-gray">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="cart-price">$440.00</div>
+                            </td>
+                            <td>
+                                <a href="#" class="p-remove theme-color"><span class="icon-clear"></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="cart-img d-block">
+                                    <img src="static/picture/product11.jpg" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#" class="p-name primary-color">
+                                    Black Fashion Zapda
+                                </a>
+                            </td>
+                            <td>
+                                <div class="cart-price">$440.00</div></td>
+                            <td>
+                                <div class="all-info product-view-info text-center mt-35">
+                                    <div class="quick-add-to-cart d-sm-flex align-items-centerm-auto  mb-15 mr-10">
+                                        <div class="quantity-field position-relative d-inline-block m-auto">
+                                            <input type="text" name="select1" value="0" class="quantity-input-arrow quantity-input text-center border-gray">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="cart-price">$440.00</div>
+                            </td>
+                            <td>
+                                <a href="#" class="p-remove theme-color"><span class="icon-clear"></span></a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="coupon-and-update-area pt-20">
+                    <div class="row">
+                        <div class="col-xl-6  col-lg-6  col-md-12  col-sm-12 col-12">
+                            <div class="coupon-code-area pt-15">
+                                <form action="#">
+                                    <input type="text" placeholder="Coupon code" class="pl-15 mr-10 pt-0 mb-15 d-inline-block width50">
+                                    <a href="#" class="web-btn h2-theme-border1 d-inline-block text-uppercase white  rounded-0 h2-theme-color cart-c-btn h2-theme-bg position-relative over-hidden pl-40 pr-40 ptb-17 mr-20">Apply coupon</a>
+                                </form>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-6  col-lg-6  col-md-12  col-sm-12 col-12">
+                            <div class="update-area d-flex justify-content-xl-end">
+                                <a href="#" class="web-btn h2-theme-border1 d-inline-block text-uppercase white mt-15 rounded-0 h2-theme-color h2-theme-bg position-relative over-hidden pl-60 pr-60 ptb-17 mr-20">UPDATE CART</a>
+                            </div>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div>
+                <div class="row">
+                    <div class="col-xl-6  col-lg-6  col-md-12  col-sm-12 col-12 offset-xl-6 offset-lg-6">
+                        <div class="total-price-area mt-60">
+                            <h2 class="font600">Cart totals</h2>
+                            <ul class="pt-15 pb-25">
+                                <li class="d-flex justify-content-between align-items-center border-gray1 mb-2 pl-25 pr-25 pt-15 pb-15">
+                                    <span>Subtotal</span><span>$480</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center border-gray1 pl-25 pr-25 pt-15 pb-15">
+                                    <span>Total </span><span>$480</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="web-btn h2-theme-border1 d-inline-block text-uppercase white  rounded-0 h2-theme-color h2-theme-bg position-relative over-hidden pl-40 pr-40 ptb-17 mr-20">text-uppercase</a>
+                        </div>
+                    </div><!-- /col -->
+                </div>
+            </div><!-- /container -->
+            </div>
+            <!-- cart-area-end -->
+
+        </main>
+        
+        <!-- ====== footer-area-start ============================================== -->
+        <footer> 
+            <div class="footer-area footer2 footer-bg">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row d-flex border-b-gray1 border-t-gray1 pb-40 pt-90">
+                            <div class="col-xxl-5 col-xl-5  col-lg-6  col-md-12  col-sm-12 col-12 pl-0">
+                                <div class="row">
+                                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-6 col-12 ">
+                                        <div class="footer-widget pb-30">
+                                            <ul class="footer-account">
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">My Account</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">Order Status</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">Shipping</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">Returns & Exchanges</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">International Shipments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- /col -->
+                                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-6 col-12 pl-xl-0">
+                                        <div class="footer-widget pb-30">
+                                            <ul class="footer-account">
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">Customer Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">Contact Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="position-relative d-inline-block">Accessibility</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /col -->
+                            <div class="col-xxl-7 col-xl-7  col-lg-6  col-md-12  col-sm-12 col-12">
+                            <div class="row">   
+                                <div class="col-xl-6  col-lg-6  col-md-6  col-sm-6 col-12 pl-0">
+                                    <div class="footer-widget f-adress pb-30 pr-60 ml--35">
+                                        <ul class="footer-address">
+                                            <li>
+                                                <a class="footer-phone" href="tell:+01500123994">
+                                                    <span><small>+01</small></span>
+                                                    500 123 994</a>
+                                            </li>
+                                            <li class="office-time pt-22 pb-20 gray-b-border1">
+                                                <span class="d-block mb-10">Monday - Friday: 9:00-20:00</span>
+                                                <span class="d-block mb-10">Saturday: 11:00 - 16:00</span>
+                                            </li>
+                                            <li class="footer-mail mt-28">
+                                                <span>Need help? <a href="#">contact@example.com</a></span>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div><!-- /col -->
+                                <div class="col-xl-6  col-lg-6  col-md-6  col-sm-6 col-12 pl-xl-0">
+                                    <div class="footer-widget pb-30 f-link ml--3">
+                                        <p class="font500">PO Box 16122 Collins Street <br>
+                                            Victoria 8007 Australia</p>
+                                        <div class="f-social mt-20">
+                                            <img src="static/picture/social.png" alt="">
+                                        </div>
+                                        <div class="copyright-text d-sm-flex justify-content-center align-items-center mt-50">
+                                            <p class="mb-0">Copyright &copy; 2021.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+                                        </div>
+                                    </div>
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div>
+                <div class="footer-bottom pt-25">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-center">
+                                <!-- ====== service-area-start ========================================= -->
+                            <div class="col-xl-8  col-lg-8  col-md-12  col-sm-12 col-12">
+                                <div class="service-area">
+                                    <ul>
+                                        <li class="d-inline-block mr-50">
+                                            <div class="single-service d-flex align-items-center mb-25">
+                                                <div class="s-ser-icon mr-15">
+                                                    <span class="h2-theme-color"><i class="fal fa-shipping-fast"></i></span>
+                                                </div>
+                                                <div class="s-ser-content">
+                                                    <p class="mb-0">30 Days To Money Back</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="d-inline-block mr-50">
+                                            <div class="single-service d-flex align-items-center mb-25">
+                                                <div class="s-ser-icon mr-15">
+                                                    <span class="h2-theme-color"><i class="fal fa-tram"></i></span>
+                                                </div>
+                                                <div class="s-ser-content">
+                                                    <p class="mb-0">30 Days To Money Back</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="d-inline-block mr-50">
+                                            <div class="single-service d-flex align-items-center mb-25">
+                                                <div class="s-ser-icon mr-15">
+                                                    <span class="h2-theme-color"><i class="fal fa-gift"></i></span>
+                                                </div>
+                                                <div class="s-ser-content">
+                                                    <p class="mb-0">Shipping in 24 Hours</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-4  col-lg-4  col-md-12  col-sm-12 pr-0 col-12 d-flex justify-content-lg-end">
+                                <div class="footer-widget f-payment pb-25">
+                                    <div class="footer-payment">
+                                        <img src="static/picture/payment.png" alt="">
+                                    </div>
+                                </div>
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div>
+            </div>
+        </footer>
+
+            <!-- back top -->
+            <div class="scroll-up" id="scroll">
+                <a href="#" class="h2-theme-bg white d-block text-center position-fixed">
+                    <span class="icon-chevrons-up"></span>
+                </a>
+            </div>
+
+
+        <!-- All js here -->
+        <script src="static/js/modernizr-3.5.0.min.js"></script>
+        <script src="static/js/jquery-3.6.0.min.js"></script>
+        <script src="static/js/popper.min.js"></script>
+        <script src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/jquery.inputarrow.js"></script>
+        <script src="static/js/jquery.nice-select.min.js"></script>
+        <script src="static/js/jquery.elevatezoom-3.0.8.min.js"></script>
+        <script src="static/js/wow.min.js"></script>
+        <script src="static/js/jquery.fancybox.min.js"></script>
+        <script src="static/js/slick.min.js"></script>
+        <script src="static/js/jquery.meanmenu.min.js"></script>
+        <script src="static/js/plugins.js"></script>
+        <script src="static/js/countdown.min.js"></script>
+        <script src="static/js/main.js"></script>
+
+    </body>
+</html>
