@@ -32,7 +32,6 @@ body {
 	background: url(../images/bg-header.jpg) repeat-x;
 	margin: 0;
 	padding: 18px 0 0;
-	text-align: center;
 }
 /* Team page */
 	/* team_option */
