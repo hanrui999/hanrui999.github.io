@@ -21,9 +21,9 @@ input:focus, textarea:focus {outline:none;}
 body {
 	background: url(../images/bg-body.jpg) repeat;
 	font-family: 'Conv_Ubuntu-Light';
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: normal;
-	line-height: 1;
+	line-height: 1.5;
 	margin: 0;
 	min-width: 960px;
 	padding: 0;
@@ -34,6 +34,34 @@ body {
 	padding: 18px 0 0;
 	text-align: center;
 }
+/* top menu */
+.header nav {position:absolute;top:48px;right:0;}
+.header nav ul {zoom:1;}
+.header nav ul li {font-size:14px;font-weight:bold;float:left;padding:0 0 0 38px;position:relative;}
+.header nav ul li:after {content:'';background:url(../images/sprite.png) 6px 7px no-repeat;float:left;display:block;width:12px;height:12px;}
+.header nav ul li a, .header nav ul li a:visited {color:#434242;float:left;height:30px;}
+.header nav ul li a:hover {color:#3fa3c9;}
+.header nav ul li:hover > ul {display:block;}
+.header nav ul ul {display:none;position:absolute;top:25px;left:23px;z-index:99999;background:#f6f3f3;}
+.header nav ul ul ul {top:0;left:160px;}
+.header nav ul ul li {float:none;padding:0;display:block;font-size:12px;font-weight:normal;}
+.header nav ul ul a {float:none;padding:14px 16px 14px 12px;width:130px;height:auto;display:block;float:none;border:1px solid #dbe8ed;border-bottom:1px solid #e3e3e3;border-top:1px solid #fff;}
+.header nav ul ul li:after {display:none;}
+.header nav ul ul li:first-child a {border-top:1px solid #5eb2d1;}
+.header nav ul ul li:last-child a {border-bottom:1px solid #9acbdf;}
+.header nav ul ul li:first-child li a {border-top:1px solid #fff;}
+.header nav ul ul li li:first-child a {border-top:1px solid #b9d9e5;}
+.header nav ul ul li:last-child li a {border-bottom:1px solid #e3e3e3;}
+.header nav ul ul li:hover a {background:#fff;padding-left:24px;padding-right:4px;color:#3fa3c9;}
+.header nav ul ul li:hover li a {background:none;padding-left:12px;padding-right:16px;color:#626363;}
+.header nav ul ul li:hover li a:hover {background:#fff;padding-left:24px;padding-right:4px;color:#3fa3c9;}
+.header nav ul ul span {visibility:hidden;padding-right:10px;background:url(../images/arrow.gif) right 6px no-repeat;}
+.header nav ul ul li:hover span {visibility:visible;}
+.header nav ul ul li:hover li span {visibility:hidden;}
+.header nav ul ul li li:hover span {visibility:visible;}
+
+.content_block h4 {font-size:21px;color:#434242;}
+.content_block h4.bord {margin:0 0 25px 0;padding:10px 0;border-bottom:1px solid #e7e6e6;}
 /* Team page */
 	/* team_option */
 .team_option h4 {margin:0 0 25px 0;padding:10px 0;border-bottom:1px solid #e7e6e6;}
@@ -622,6 +650,11 @@ body {
 	text-align: center;
 	width: 211px;
 }
+/* Full width page */
+.full_width {padding:10px 0 30px 0;}
+.full_width .bwWrapper {font-size:15;line-height:0;margin:15px 0 10px 0;border:5px solid #f6f3f3;}
+.full_width p {padding:0px 0 0px 0;}
+
 #body #blog .figure a {
 	display: block;
 	margin: 0;

@@ -43,7 +43,7 @@ input:focus, textarea:focus {outline:none;}
 .header nav ul ul li:hover li span {visibility:hidden;}
 .header nav ul ul li li:hover span {visibility:visible;}
 
-.content_block h4 {font-size:17px;color:#434242;}
+.content_block h4 {font-size:24px;color:#434242;}
 .content_block h4.bord {margin:0 0 25px 0;padding:10px 0;border-bottom:1px solid #e7e6e6;}
 	/* top_title */
 .top_title {background:#3fa3c9 url(../images/text_bar2.png);margin-bottom:30px;position:relative;}
@@ -748,7 +748,7 @@ body.index_v2 .copyright .top, body.index_v2 .copyright .top:visited {right:30px
 
 /* Full width page */
 .full_width {padding:10px 0 30px 0;}
-.full_width .bwWrapper {font-size:0;line-height:0;margin:15px 0 10px 0;border:5px solid #f6f3f3;}
+.full_width .bwWrapper {font-size:99;line-height:0;margin:15px 0 10px 0;border:5px solid #f6f3f3;}
 .full_width p {padding:15px 0 10px 0;}
 
 /* Short Text Layout 1 Column page */
