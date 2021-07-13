@@ -28,6 +28,18 @@ body {
 	min-width: 960px;
 	padding: 0;
 }
+w{
+                background: url(../images/bg-body.jpg) repeat;
+	font-family: 'Conv_Ubuntu-Light';
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+                text-align: left;
+}
+
 #header {
 	background: url(../images/bg-header.jpg) repeat-x;
 	margin: 0;
