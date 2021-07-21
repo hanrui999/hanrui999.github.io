@@ -674,6 +674,14 @@ body {
 	margin-left:5%;
 	margin-right:5%;
 	}
+.full_width_2 {
+	text-indent:0em;
+	text-align:left;
+	font-family:"微软雅黑";
+	font-size:20px;
+	margin-left:5%;
+	margin-right:5%;
+	}
 .full_width .bwWrapper {
 	font-size:15;
 	line-height:0;
