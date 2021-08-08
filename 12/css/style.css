@@ -3,7 +3,9 @@ body {height:100%;font:13px 'PT Sans', Arial, Tahoma, Verdana, Sans-Serif;color:
 div, html, body, p, ul, ol, li, a, form, img, table, td, h1, h2, h3, h4, h5, h6, blockquote, header, section, footer, aside, nav, article, figure, figcaption, dl, dt, dd {margin:0;padding:0;} 
 header, section, footer, aside, nav, article, figure, figcaption {display: block;}
 table {border-collapse:collapse;}
-img {border:none;}
+img {
+	border:none;
+	}
 ul, li {list-style:none;}
 a, a:active, a:visited {text-decoration:none;color:#3fa3c9;}
 a:hover {text-decoration:none;color:#3fa3c9;}
@@ -73,19 +75,43 @@ body {
 .team_option ul {margin:0 0;}
 .team_option ul li {clear:both;float:left;padding:0 0 20px 0;margin:0 0 40px 0;border-bottom:1px solid #e7e6e6;}
 .team_option ul li:last-child {border-bottom:none;}
-.team_option ul li .img {width:279px;border:5px solid #f6f3f3;border-bottom:none;float:left;font-size:0;line-height:0;}
+.team_option ul li .img {
+	width:279px;
+	border:5px solid #f6f3f3;
+	border-bottom:none;
+	float:left;
+	font-size:0;
+	line-height:0;
+	margin-right:32px;
+	}
 .team_option ul li .img p {background:#f6f3f3;border-bottom:1px solid #c8c6c6;font-size:13px;line-height:16px;padding:13px 0;text-align:center;}
-.team_option ul li .desc {float:left;width:510px;padding:0 105px 0 35px;position:relative;}
-.team_option ul li .desc p {padding-bottom:20px;}
-.team_option ul li .desc p strong {color:#4d4e50;}
-.team_option ul li .desc .social {position:absolute;top:-7px;right:0;}
-.team_option ul li .desc .social li {clear:none;float:none;padding:10px 0;margin:0;border:none;font-size:14px;font-weight:bold;}
-.team_option ul li .desc .social li a {color:#434242;padding:5px 0 5px 30px;position:relative;}
-.team_option ul li .desc .social li a:before {position:absolute;top:5px;left:0;content:'';display:block;width:22px;height:21px;background:#d8d8d8 url(../images/sprite.png) 0 -331px no-repeat;-webkit-border-radius:13px;-moz-border-radius:13px;border-radius:13px;behavior: url(PIE.htc);}
-.team_option ul li .desc .social li a:hover:before {background-color:#70b9d5;}
-.team_option ul li .desc .social li a.facebook:before {background-position:0 -331px;}
-.team_option ul li .desc .social li a.twitter:before {background-position:0 -371px;}
-.team_option ul li .desc .social li a.linkedin:before {background-position:0 -414px;}
+.team_option ul li .desc {
+	padding:0 105px 0 5px;
+	position:absolue;
+	
+	}
+.team_option ul li .desc p {
+	padding-bottom:20px;
+	}
+
+.team_option ul li .desc p strong {
+	color:#4d4e50;}
+.team_option ul li .desc .social {
+	position:absolute;top:-7px;right:0;}
+.team_option ul li .desc .social li {
+	clear:none;float:none;padding:10px 0;margin:0;border:none;font-size:14px;font-weight:bold;}
+.team_option ul li .desc .social li a {
+	color:#434242;padding:5px 0 5px 30px;position:relative;}
+.team_option ul li .desc .social li a:before {
+	position:absolute;top:5px;left:0;content:'';display:block;width:22px;height:21px;background:#d8d8d8 url(../images/sprite.png) 0 -331px no-repeat;-webkit-border-radius:13px;-moz-border-radius:13px;border-radius:13px;behavior: url(PIE.htc);}
+.team_option ul li .desc .social li a:hover:before {
+	background-color:#70b9d5;}
+.team_option ul li .desc .social li a.facebook:before {
+	background-position:0 -331px;}
+.team_option ul li .desc .social li a.twitter:before {
+	background-position:0 -371px;}
+.team_option ul li .desc .social li a.linkedin:before {
+	background-position:0 -414px;}
 	/* team_option2 */
 .team_option2 ul li {clear:none;width:452px;padding:0;border:none;}
 .team_option2 ul li:nth-child(2n+2) {float:right;}
@@ -682,6 +708,14 @@ body {
 	margin-left:5%;
 	margin-right:5%;
 	}
+.full_width_3 {
+	text-indent:0em;
+	text-align:left;
+	font-family:"微软雅黑";
+	font-size:20px;
+	margin-left:5%;
+	margin-right:5%;
+	}
 .full_width .bwWrapper {
 	font-size:15;
 	line-height:0;
@@ -737,6 +771,7 @@ body {
 	font-size:17px;
 	margin-left:5%;
 	margin-right:5%;
+	text-indent: 0px;
 }
 .full_head_6{
 	text-align:center;
@@ -754,6 +789,15 @@ body {
 	font-family:"微软雅黑";
 	font-size:10px;
 	margin-left:5%;
+	margin-right:5%;
+}
+.full_head_8{
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-family:"微软雅黑";
+	font-size:20px;
+	margin-left:0%;
 	margin-right:5%;
 }
 #body #blog .figure a {
