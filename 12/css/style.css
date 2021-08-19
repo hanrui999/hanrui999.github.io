@@ -28,7 +28,7 @@ text-align: center;}
 body {
 	background: url(../images/bg-body.jpg) repeat;
 	font-family: 'Conv_Ubuntu-Light';
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: normal;
 	line-height: 1.5;
 	margin: 0;
@@ -685,7 +685,7 @@ body {
 
 .full_width {
 	padding:10px 0 30px 0;
-	text-indent:2em;
+	text-indent:0em;
 	text-align:justify;
 	font-family:"微软雅黑";
 	font-size:20px;
