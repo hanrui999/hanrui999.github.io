@@ -73,7 +73,7 @@ body {
 	/* team_option */
 .team_option h4 {margin:0 0 25px 0;padding:10px 0;border-bottom:1px solid #e7e6e6;}
 .team_option ul {margin:0 0;}
-.team_option ul li {clear:both;float:left;padding:0 0 20px 0;margin:0 0 40px 0;border-bottom:1px solid #e7e6e6;}
+.team_option ul li {clear:both;float:left;padding:0 0 0px 0;margin:0 0 0px 0;border-bottom:1px solid #e7e6e6;}
 .team_option ul li:last-child {border-bottom:none;}
 .team_option ul li .img {
 	width:279px;
